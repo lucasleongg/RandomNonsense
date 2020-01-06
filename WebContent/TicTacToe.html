@@ -3,13 +3,16 @@
 <head>
 <meta charset="ISO-8859-1">
 <title>TicTacToe</title>
-<link rel="stylesheet" type="text/css" href="">
-<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="TicTacToe.css">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700"
+	rel="stylesheet">
 </head>
 <body>
 	<header>
 		<div class="topH1">
-			<h1><a href="">RANDOM NONSENSE</a></h1>
+			<h1>
+				<a href="">RANDOM NONSENSE</a>
+			</h1>
 		</div>
 		<nav>
 			<ul>
@@ -19,5 +22,29 @@
 			</ul>
 		</nav>
 	</header>
+
+	<div class="game-container">
+		<div id="game">
+			<div class="box">x</div>
+			<div class="box">x</div>
+			<div class="box">x</div>
+			<div class="box">x</div>
+			<div class="box">x</div>
+			<div class="box">x</div>
+			<div class="box">x</div>
+			<div class="box">x</div>
+			<div class="box">x</div>
+		</div>
+
+		<div class="scoreboard-container">
+			<div class="scoreboard">
+				<p id="yourScore">Your score:</p>
+				<p id="cpuScore">CPU score:</p>
+				<div id="reset-button-container">
+					<button id="resetButton">Reset</button>
+				</div>
+			</div>
+		</div>
+	</div>
 </body>
 </html>
