@@ -11,7 +11,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: #fafcfc;
+  background-color: #ff8080/*#fafcfc*/;
   width: 100%;
 }
 
