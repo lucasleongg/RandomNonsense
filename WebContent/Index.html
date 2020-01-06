@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Hello</title>
+<link rel="stylesheet" type="text/css" href="calculateBill.css">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
+</head>
+<body>
+	<header>
+		<div class="topH1">
+			<h1><a href="">RANDOM NONSENSE</a></h1>
+		</div>
+		<nav>
+			<ul>
+				<li><a href="#">Bill Calculator</a></li>
+				<li><a href="#">blablabla</a></li>
+				<li><a href="#">lalala</a></li>
+			</ul>
+		</nav>
+	</header>
+		
+
+		<div class="calculator">
+			
+			<div class="form">
+			<h2 id="formTitle">BILL CALCULATOR<img src="https://image.flaticon.com/icons/svg/522/522575.svg"></h2>
+				<form>
+				
+					<p><label>How much was your bill:</label>
+					$<input type="number" id="totalBill" placeholder="Bill Amount" min="1"/>
+					</p>
+					<p><label>Is GST included?</label>
+						<input type="checkbox" id="GSTCheckbox"/>
+						<span id="GSTNumberSpan"><input type="number" value=7 id="GSTNumber">%</span>
+					</p>
+					<p><label>Is Service Charge included?</label>
+						<input type="checkbox" id="serviceChargeCheckbox"/>
+						<span id="serviceChargeNumberSpan"><input type="number" value=10 id="serviceChargeNumber">%</span>
+					</p>
+					<p><label>I want to split the bill</label>
+						<input type="checkbox" id="splitBillCheckbox"/>
+						<span id="numOfPeopleSpan">With <input type="number" value=1 id="numOfPeople"> person/s.</span>
+					</p>
+					<input type="button" id="submit" value="Calculate!">
+				</form>
+				
+				<div id="answer">
+				</div>
+			</div>
+		</div>
+		<footer>
+			<p id="credits">Lucas Leong 3rd January 2019</p>
+		</footer>
+	<script src='calculateBill.js'></script>
+</body>
+</html>

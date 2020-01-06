@@ -1,0 +1,145 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+}
+
+
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fafcfc;
+  width: 100%;
+}
+
+.topH1 h1 {
+	margin-left: 60px;
+}
+
+.topH1 h1 a {
+	text-decoration: none;
+	color: black;
+}
+
+nav ul {
+	margin-right: 80px;
+}
+
+nav li {
+	display: inline-block;
+	padding: 20px 20px;
+	font-size: 1.2rem;
+}
+
+nav a {
+	color: black;
+	text-decoration: none;
+}
+
+.calculator {
+	display: flex;
+	justify-content: center;
+	vertical-align: center;
+	align-items: center;
+	background-image: url("https://www.azfoodandwine.com/wp-content/uploads/2018/04/nirvana-sanctuary-best-of-the-west-hi-res-8322.jpg");
+	background-size: cover;
+	height: 500px;
+}
+
+.form {
+	vertical-align: top;
+	Font-size: 16px;
+	background-color: white;
+	opacity: 0.9;
+	/*padding: 10px 30px;*/
+	border-radius: 20px;
+	width: 30%;
+	height: auto;
+	overflow: hidden;
+}
+
+.form h2 {
+	text-align: center;
+	vertical-align: top;
+	padding: 20px;
+	font-size: 30px;
+	Font-weight: bold; 
+	background-color: #F8DAE9;
+	margin: 0px;
+	border-radius: 20px 20px 0px 0px;
+}
+
+#formTitle img {
+	width: 30px;
+}
+
+
+
+label {
+	display: inline-block;
+    float: left;
+    clear: left;
+    width: 210px;
+    text-align: left;
+}
+
+input {
+	display: inline-block;
+    float: none;
+}
+
+
+#GSTNumberSpan, 
+#serviceChargeNumberSpan, 
+#numOfPeopleSpan {
+	display: none;
+}
+
+input[type=number]{
+    width: 30px;
+} 
+
+#totalBill {
+	width: 100px;
+}
+
+p {
+	padding: 5px;
+	border-bottom: 1px dotted grey;
+}
+
+#submit {
+	width: 100%;
+	background-color: #B9D6F3;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+#answer {
+	display: flex;
+	vertical-align: center;
+	justify-content: center;
+	font-weight: bold;
+	font-size: 30px;
+	height: auto;
+}
+
+#amount {
+	color:  #C23B23;
+	text-decoration: underline;
+}
+
+footer {
+	background-color: #fafcfc;
+	text-align: center;
+}
+
+#credits {
+	margin: 0px;
+	padding: 20px;
+	font-style: italic;
+	font-size: 0.75rem;
+}
