@@ -50,16 +50,27 @@ nav a {
 	display: grid;
 	width: 500px;
 	height: 500px;
-	background-color: #EEF1E6;
+	background-color: #502c2c;
 	grid-template-columns: auto auto auto;
 	grid-gap: 20px;
 	margin-left: 100px;
+	border-radius: 10px;
 }
+
+
 
 .box {
 	text-align: center;
 	padding: 20px;
-	background-color: #AFC7D0;
+	background-color: #c9d4fe;
+	background-size: cover;
+	border-radius: 10px;
+}
+
+.box img {
+	max-width: 20%; 
+	height: auto;
+	padding: 0px;
 }
 
 .scoreboard-container {
@@ -67,19 +78,33 @@ nav a {
 	align-items: center;
 	justify-content: center;
 	width: 500px;
-	margin-right: 100px;
+	margin-right: 5%;
 }
 
 .scoreboard {
-	background-color: #FEC9C9;
-	width: 60%;
+	background-color: #c9d4fe;
+	width: 70%;
 	height: 60%;
+	min-height: 60%;
 	padding: 50px;
 	align-items: center;
-	font-size: 40px;
-	opacity: 0.9;
+	font-size: 2.5rem;
+	opacity: 1;
+	border-radius: 10px;
+	overflow: hidden
 }
 
 #reset-button-container {
 	text-align	: center;
+}
+
+#resetButton {
+	background-color: #4183D7;
+	font-size: 2.5rem;
+	border-style: none;	
+	border-radius: 5px;
+	opacity: 1;
+	box-shadow: #38549D 0 5px 0 0;
+	padding: 10px;
+	cursor: pointer
 }
